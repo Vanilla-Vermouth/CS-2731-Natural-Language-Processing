@@ -1,0 +1,9 @@
+java -cp ZechenWang.jar cs2731.hw2.ProbCKY pcfg.txt "Book the flight through Houston" "[S [VP [Verb Book] [NP[Det the][Nominal [Noun flight][PP[Preposition through][NP[Proper-Noun Houston]]]]]]]"
+
+java -cp ZechenWang.jar cs2731.hw2.ProbCKY pcfg.txt "The flight includes a meal" "[S[NP[Det The][Nominal[Noun flight]]][VP[Verb includes][NP[Det a][Nominal[Noun meal]]]]]"
+
+java -cp ZechenWang.jar cs2731.hw2.ProbCKY pcfg.txt "I book a flight to Houston" "[S [NP [Pronoun I]] [VP [Verb book] [NP [Det a] [Nominal [Noun flight]]] [PP [Preposition to] [NP [Proper-Noun houston]]]]]"
+
+java -cp ZechenWang.jar cs2731.hw2.ProbCKY pcfg.txt "Book the dinner flight" ""
+
+java -cp ZechenWang.jar cs2731.hw2.ProbCKY pcfg.txt "" ""
